@@ -13,6 +13,5 @@ class App < Sinatra::Base
   post '/team' do
     erb :team
 
-    @team_name = [params;]
   end
 end
