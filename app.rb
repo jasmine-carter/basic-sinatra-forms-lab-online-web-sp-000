@@ -6,12 +6,8 @@ class App < Sinatra::Base
     erb :newteam
   end
 
-  post '/newteam' do
-    "here's a team!"
-  end
-
   post '/team' do
-    erb :team
-
+    #erb :team
+    "hey here's your team"
   end
 end
