@@ -8,6 +8,11 @@ class App < Sinatra::Base
 
   post '/team' do
     @team=params[:name]
+    @pg=params[:pg]
+    @sg=params[:sg]
+    @sf=params[:sf]
+    @pf=params[:pf]
+    @center=params[:c]
     erb :team
   end
 end
