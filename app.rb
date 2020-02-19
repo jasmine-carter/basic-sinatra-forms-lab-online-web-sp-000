@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    #erb :team
-    "hey here's your team"
+    puts params
+    erb :team
   end
 end
